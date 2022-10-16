@@ -1,0 +1,7 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+layerdrops.com	TRUE	/insurwp/	FALSE	1999999999	woocommerce_items_in_cart	1
+layerdrops.com	TRUE	/insurwp/	FALSE	1999999999	wp_woocommerce_session_d30b43e387852f2859cef383da4cf9e0	t_9fa8cffcacfe5df5e3ae8592037c1f%7C%7C1666009747%7C%7C1666006147%7C%7C08e61a298e209161180bd0f8b05fcd14
+layerdrops.com	TRUE	/insurwp/	FALSE	1999999999	yith_wcwl_session_d30b43e387852f2859cef383da4cf9e0	%7B%22session_id%22%3A%22e22ee2e5cdc4de798c622f84f3ddf008%22%2C%22session_expiration%22%3A1668428961%2C%22session_expiring%22%3A1668425361%2C%22cookie_hash%22%3A%229ff1cc53077cc3417b4d549c339b5db5%22%7D
+layerdrops.com	TRUE	/insurwp/	FALSE	1999999999	woocommerce_cart_hash	a8a75c8b2ab3da1e1d0bf2b0c8bb02d7
+
