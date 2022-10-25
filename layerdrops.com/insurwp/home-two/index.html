@@ -921,7 +921,7 @@
 															body {
 																font-family: Arial, Helvetica, sans-serif;
 															}
-										
+
 															/* The Modal (background) */
 															.modal {
 																display: none;
@@ -946,7 +946,7 @@
 																background-color: rgba(0, 0, 0, 0.4);
 																/* Black w/ opacity */
 															}
-										
+
 															/* Modal Content */
 															.modal-content {
 																background-color: #b89191;
@@ -955,7 +955,7 @@
 																border: 1px solid #888;
 																width: 80%;
 															}
-										
+
 															/* The Close Button */
 															.close {
 																color: #aaaaaa;
@@ -963,7 +963,7 @@
 																font-size: 28px;
 																font-weight: bold;
 															}
-										
+
 															.close:hover,
 															.close:focus {
 																color: #000;
@@ -971,104 +971,128 @@
 																cursor: pointer;
 															}
 														</style>
-										
+
 														<body>
-										
+
 															<!-- <h2>Modal Example</h2> -->
-										
+
 															<!-- Trigger/Open The Modal -->
 															<!-- <button id="myBtn">Open Modal</button> -->
-										
+
 															<!-- The Modal -->
 															<div id="myModal" class="modal">
-										
+
 																<!-- Modal content -->
 																<div class="modal-content">
 																	<span class="close">&times;</span>
-										
-										
-																	<div class="comment-one__form contact-form-validated">
+
+
+																	<div
+																		class="comment-one__form contact-form-validated">
 																		<div class="row">
 																			<h5>Enquiry Form</h5><br>
 																			<div class="col-xl-6">
 																				<div class="comment-form__input-box">
-																					<span class="wpcf7-form-control-wrap" data-name="text-927"><input
-																							type="text" name="text-927" value="" size="40"
+																					<span
+																						class="wpcf7-form-control-wrap"
+																						data-name="text-927"><input
+																							type="text" name="text-927"
+																							value="" size="40"
 																							class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required"
-																							aria-required="true" aria-invalid="false"
+																							aria-required="true"
+																							aria-invalid="false"
 																							placeholder="Your name" /></span>
 																				</div>
 																			</div>
 																			<div class="col-xl-6">
 																				<div class="comment-form__input-box">
-																					<span class="wpcf7-form-control-wrap" data-name="email-322"><input
-																							type="email" name="email-322" value="" size="40"
+																					<span
+																						class="wpcf7-form-control-wrap"
+																						data-name="email-322"><input
+																							type="email"
+																							name="email-322" value=""
+																							size="40"
 																							class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email"
-																							aria-required="true" aria-invalid="false"
+																							aria-required="true"
+																							aria-invalid="false"
 																							placeholder="Email address" /></span>
 																				</div>
 																			</div>
 																			<div class="col-xl-6">
 																				<div class="comment-form__input-box">
-																					<span class="wpcf7-form-control-wrap" data-name="text-927"><input
-																							type="text" name="text-927" value="" size="40"
+																					<span
+																						class="wpcf7-form-control-wrap"
+																						data-name="text-927"><input
+																							type="text" name="text-927"
+																							value="" size="40"
 																							class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required"
-																							aria-required="true" aria-invalid="false"
+																							aria-required="true"
+																							aria-invalid="false"
 																							placeholder="Phone number" /></span>
 																				</div>
 																			</div>
 																			<div class="col-xl-6">
 																				<div class="comment-form__input-box">
-																					<span class="wpcf7-form-control-wrap" data-name="text-9274"><input
-																							type="text" name="text-9274" value="" size="40"
+																					<span
+																						class="wpcf7-form-control-wrap"
+																						data-name="text-9274"><input
+																							type="text" name="text-9274"
+																							value="" size="40"
 																							class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required"
-																							aria-required="true" aria-invalid="false"
+																							aria-required="true"
+																							aria-invalid="false"
 																							placeholder="Subject" /></span>
 																				</div>
 																			</div>
 																		</div>
 																		<div class="row">
 																			<div class="col-xl-12">
-																				<div class="comment-form__input-box text-message-box">
-																					<span class="wpcf7-form-control-wrap" data-name="textarea-512"><textarea
-																							name="textarea-512" cols="40" rows="10"
+																				<div
+																					class="comment-form__input-box text-message-box">
+																					<span
+																						class="wpcf7-form-control-wrap"
+																						data-name="textarea-512"><textarea
+																							name="textarea-512"
+																							cols="40" rows="10"
 																							class="wpcf7-form-control wpcf7-textarea wpcf7-validates-as-required"
-																							aria-required="true" aria-invalid="false"
+																							aria-required="true"
+																							aria-invalid="false"
 																							placeholder="Message"></textarea></span>
 																				</div>
 																				<div class="comment-form__btn-box">
-																					<button type="submit" class="thm-btn comment-form__btn">Submit
+																					<button type="submit"
+																						class="thm-btn comment-form__btn">Submit
 																					</button>
 																				</div>
 																			</div>
 																		</div>
 																	</div>
-										
-										
+
+
 																</div>
-										
+
 															</div>
-										
+
 															<script>
 																// Get the modal
 																var modal = document.getElementById("myModal");
-										
+
 																// Get the button that opens the modal
 																var btn = document.getElementById("myBtn");
-										
+
 																// Get the <span> element that closes the modal
 																var span = document.getElementsByClassName("close")[0];
-										
+
 																// When the user clicks the button, open the modal 
 																btn.onclick = function () {
 																	modal.style.display = "block";
 																}
-										
+
 																// When the user clicks on <span> (x), close the modal
 																span.onclick = function () {
 																	modal.style.display = "none";
 																}
-										
+
 																// When the user clicks anywhere outside of the modal, close it
 																window.onclick = function (event) {
 																	if (event.target == modal) {
@@ -1076,7 +1100,7 @@
 																	}
 																}
 															</script>
-										
+
 														</body>
 													</div>
 												</div>
@@ -1329,9 +1353,9 @@
 					</div>
 				</div>
 			</section>
-			
-				
-			
+
+
+
 
 			<section
 				class="elementor-section elementor-top-section elementor-element elementor-element-e18b774 elementor-section-full_width elementor-section-height-default elementor-section-height-default"
@@ -1351,8 +1375,7 @@
 												<div class="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay="100ms">
 													<div class="feature-two__single">
 														<div class="feature-two__img">
-															<img src="../wp-content/uploads/2022/07/feature-two-img-1.jpg"
-																alt="alt">
+															<img src="../wp-content/uploads/2022/07/cs4.jpg" alt="alt">
 														</div>
 														<div class="feature-two__content">
 															<div class="feature-two__content-inner">
@@ -1362,8 +1385,7 @@
 																</div>
 																<div class="feature-two__text-box">
 																	<p class="feature-two__text">
-																		<a href="#"> A Team Of
-																			<br />Professionals
+																		<a href="../home-two/equity.html"> Service
 																		</a>
 																	</p>
 																</div>
@@ -1376,8 +1398,7 @@
 												<div class="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay="200ms">
 													<div class="feature-two__single">
 														<div class="feature-two__img">
-															<img src="../wp-content/uploads/2022/07/feature-two-img-2.jpg"
-																alt="alt">
+															<img src="../wp-content/uploads/2022/07/cs5.jpg" alt="alt">
 														</div>
 														<div class="feature-two__content">
 															<div class="feature-two__content-inner">
@@ -1387,8 +1408,8 @@
 																</div>
 																<div class="feature-two__text-box">
 																	<p class="feature-two__text">
-																		<a href="#">Analyze
-																			Your <br />Business</a>
+																		<a
+																			href="../home-two/performance.html">Performance</a>
 																	</p>
 																</div>
 															</div>
@@ -1400,8 +1421,7 @@
 												<div class="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay="300ms">
 													<div class="feature-two__single">
 														<div class="feature-two__img">
-															<img src="../wp-content/uploads/2022/07/feature-two-img-3.jpg"
-																alt="alt">
+															<img src="../wp-content/uploads/2022/07/cs3.jpg" alt="alt">
 														</div>
 														<div class="feature-two__content">
 															<div class="feature-two__content-inner">
@@ -1411,8 +1431,7 @@
 																</div>
 																<div class="feature-two__text-box">
 																	<p class="feature-two__text">
-																		<a href="#">Services
-																			We Provide</a>
+																		<a href="../home-two/pricing.html">Plans</a>
 																	</p>
 																</div>
 															</div>
@@ -1469,7 +1488,7 @@
 															because of their laggingness but OI is very successful
 															because of its leadingness. Many of doesn’t understand it
 															well because of its meaning change as per instrument use for
-															trading where built up in any future script shows strength
+															trading where built up in any future script</p><p> shows strength
 															either side (Bull or Bear) but</p>
 														<p> in options some time shows
 															shorting or some</p>
@@ -1498,7 +1517,8 @@
 																<div class="icon insur-icon-svg">
 																	<i aria-hidden="true" class="  fa fa-check"></i>
 																</div>
-																<div class="text">
+																<div
+																 class="text">
 																	<p>Perfect Technical & Fundamental research of
 																		Stocks
 																	</p>
@@ -1513,10 +1533,10 @@
 													<div class="about-two__middle">
 														<div class="about-two__img-box">
 															<div class="about-two__img">
-																<img src="../wp-content/uploads/2022/07/about-two-img-1.jpg"
+																<img src="../wp-content/uploads/2022/boostock-logo.jpg"
 																	alt="alt">
-															</div>
-															<div class="about-two__awards-box">
+															</div><br><br><br><br><br>
+															<div class="about-two__awards-box ml-5">
 																<div class="about-two__awards-inner">
 																	<h2 class="about-two__awards-year">15+</h2>
 																	<p class="about-two__awards-content">Years of
@@ -1527,10 +1547,7 @@
 																	</div>
 																</div>
 															</div>
-															<div class="about-two__dots float-bob-y">
-																<img src="../wp-content/uploads/2022/07/about-two-dots.png"
-																	alt="alt">
-															</div>
+													
 														</div>
 													</div>
 												</div>
